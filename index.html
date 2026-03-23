@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="shortcut icon" href="favicon/favicon.ico" type="image/x-icon">
+        <link rel="stylesheet" href="css/style.css">
+    <title>Adivinhe A Palavra</title>
+</head>
+<body>
+    <h1>Adivinhe a Palavra</h1>
+    <main>
+
+            <div id="palavraOculta" class="palavraSecreta"> 
+                <span>_</span> <span>_</span> <span>_</span> <span>_</span> <span>_</span>
+            </div>
+
+        <section class="controles">
+            <br></br>
+            <button id="botao-reinicio">reiniciar</button>
+            <input type="text" id="userInput" maxlength="1" placeholder="Letra">
+            <button id="botao" type="submit">chutar</button>
+        </section>
+
+        <div class="informacoes">
+            <p>Tentativas faltantes: <span id="tentativas">6</span></p>
+            <p>Pontuação: <span id="pontuacao">0</span></p>
+            <p>Letras Erradas: <span id="letrasGastas"></span></p>
+        </div>
+    </main>
+</body>
+<script src="/js/script.js"></script>
+</html>
