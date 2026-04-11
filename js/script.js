@@ -1,11 +1,5 @@
 let listaPalavras = [
-    "usassemos", "Point", "Corinthians", "Epic Games", "Aternos", 
-    "Among", "Listening", "Altura", "Ouvido", "Lado", 
-    "Minecraft", "Roblox", "Fortnite", "Nintendo", "Playstation", 
-    "Joystick", "Teclado", "Monitor", "Internet", "Algoritmo",
-    "Hardware", "Software", "Python", "Javascript", "Discord",
-    "Geladeira", "Abajur", "Sapato", "Relogio", "Galaxia",
-    "Planeta", "Girassol", "Montanha","Psicologo",  
+"StrayKat Muito Tufo ABCDEFGHIJKLMNOPQRSTUVWXYZ", "vascao porra"
 ]
 
 let secretWord = "";
